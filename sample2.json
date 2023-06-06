@@ -1,0 +1,15 @@
+{
+	"nodes": [
+	  { "id": 1, "label": "NODE:AGARPDS_6SIE_AGPDR5DS_CBdms_1", "title": "This is Node 1" },
+	  { "id": 2, "label": "NODE:AGARPDS_6SIE_AGPDR5DS_CBdms_2", "title": "This is Node 2" },
+	  { "id": 3, "label": "NODE:AGARPDS_6SIE_AGPDR5DS_BtLK_1", "title": "This is Node 3" },
+	  { "id": 4, "label": "Node 4", "title": "This is Node 4" },
+	  { "id": 5, "label": "Node 5", "title": "This is Node 5" }
+	],
+	"edges": [
+	  { "from": 1, "to": 2, "label": "AGARPDS_6SIE_AGPDR5DS_CBdms", "title": "Feeder Head" },
+	  { "from": 2, "to": 3, "label": "AGARPDS_6SIE_AGPDR5DS_Topo 2", "title": "Breaker"  },
+	  { "from": 3, "to": 4, "label": "Device 3", "title": "Isolator" },
+	  { "from": 4, "to": 5, "label": "Device 4", "title": "Transformer" }
+	]
+}
